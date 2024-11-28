@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DeliPizza</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+<h1 style="color:#000000;background-color:#00ffff"><strong>BIENVENIDOS A DELIPIZZA</strong></h1>
+<fieldset>
+<legend><h2>Datos</h2></legend>
+Introduzca su nombre:
+<input type="text" name="nombre" size="20"><br><br>
+Direccion:
+<input type="text" name="direccion" size="20"><br><br>
+Numero de telefono:
+<input type="text" value="+36" name="telefono" size="15"><br>
+</fieldset>
+<fieldset>
+<legend><h2>Pizzas</h2></legend>
+<style="font-family:Arial"><h2>Nuestros especiales de esta semana</h2><br>
+
+<input type="radio" name="Pizza" value="1"><img src="00.jpg" alt="P1"></input>
+<input type="radio" name="Pizza" value="2"><img src="01.jpg" alt="P2"></input>
+<input type="radio" name="Pizza" value="3"><img src="02.jpg" alt="P3"></input>
+<br>
+<input type="radio" name="Pizza" value="4"><img src="10.jpg" alt="P4"></input>
+<input type="radio" name="Pizza" value="5"><img src="11.jpg" alt="P5"></input>
+<input type="radio" name="Pizza" value="6"><img src="12.jpg" alt="P6"></input>
+<br>
+<input type="radio" name="Pizza" value="7"><img src="20.jpg" alt="P7"></input>
+<input type="radio" name="Pizza" value="8"><img src="21.jpg" alt="P8"></input>
+<input type="radio" name="Pizza" value="9"><img src="22.jpg" alt="P9"></input>
+<br>
+</fieldset>
+<fieldset>
+<legend><h2>Metodo de Pago</h2></legend>
+<input type="radio" name="Pago" value="1" checked="PayPal">PayPal</input><br>
+<input type="radio" name="Pago" value="2">MasterCard</input><br>
+<input type="radio" name="Pago" value="3">Bizum</input><br>
+</fieldset>
+<br>
+<table border="1">
+<caption><h2>Nuestros horarios de atencion<h2></caption>
+<tr>
+<td>Lunes-Viernes</td><td>Sabado</td>
+</tr>
+<tr>
+<td>8:00-21:00</td><td>10:00-14:00</td>
+</tr>
+</table>
+<br>
+Comentarios:<br>
+<textarea name="cometarios" rows="5" cols="60" id="comentarios"></textarea><br>
+<button type="submit">Enviar<img src="enviar.png" alt="envio"></button>
+<button type="reset">Borrar<img src="borrar.png" alt="borrado"></button>
+</body>
+</form>
+</html>
